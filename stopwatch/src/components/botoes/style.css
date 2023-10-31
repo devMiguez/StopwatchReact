@@ -1,0 +1,37 @@
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns button {
+    padding: 10px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .1rem;
+
+    border: none;
+    border-right: 1px solid #2F4F4F;
+    border-bottom: 1px solid #2F4F4F;
+    border-radius: 5px;
+
+    transition: all .5s;
+}
+
+.btns button:hover {
+    opacity: .8;
+    padding: 7px 20px;
+}
+
+.start {
+    background-color: green;
+}
+
+.btns .pause{
+    background-color: yellow;
+}
+
+.btns .reset {
+    background-color: red;
+}
+
